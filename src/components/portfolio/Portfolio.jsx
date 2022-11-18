@@ -46,8 +46,9 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
-            {list.map((item)=>(
+            {list.map((item, index)=>(
                 <PortfolioList
+                key={index}
                 id={item.id} 
                 title={item.title}
                  active={selected===item.id}
@@ -56,8 +57,8 @@ export default function Portfolio() {
         </ul>
         <div className="container">
         {
-            data.map((d)=>(
-                <div className="item">
+            data.map((d, index)=>(
+                <div className="item" key={index}>
                 <img src={d.img}
                  alt="" />
                 <h3>{d.title}</h3>

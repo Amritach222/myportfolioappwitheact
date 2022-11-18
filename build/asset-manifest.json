@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/myportfolioappwitheact/static/css/main.4b13176c.chunk.css",
+    "main.js": "/myportfolioappwitheact/static/js/main.4a302933.chunk.js",
+    "main.js.map": "/myportfolioappwitheact/static/js/main.4a302933.chunk.js.map",
+    "runtime-main.js": "/myportfolioappwitheact/static/js/runtime-main.dbcd0195.js",
+    "runtime-main.js.map": "/myportfolioappwitheact/static/js/runtime-main.dbcd0195.js.map",
+    "static/js/2.2fca6ce1.chunk.js": "/myportfolioappwitheact/static/js/2.2fca6ce1.chunk.js",
+    "static/js/2.2fca6ce1.chunk.js.map": "/myportfolioappwitheact/static/js/2.2fca6ce1.chunk.js.map",
+    "index.html": "/myportfolioappwitheact/index.html",
+    "static/css/main.4b13176c.chunk.css.map": "/myportfolioappwitheact/static/css/main.4b13176c.chunk.css.map",
+    "static/js/2.2fca6ce1.chunk.js.LICENSE.txt": "/myportfolioappwitheact/static/js/2.2fca6ce1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbcd0195.js",
+    "static/js/2.2fca6ce1.chunk.js",
+    "static/css/main.4b13176c.chunk.css",
+    "static/js/main.4a302933.chunk.js"
+  ]
+}
