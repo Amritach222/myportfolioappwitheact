@@ -1,5 +1,6 @@
 import "./intro.scss"
 import { init } from 'ityped'
+import amrit from "../../assets/amrit.png"
 import {useEffect,useRef} from "react"
 export default function Intro() {
     const textRef=useRef()
@@ -7,13 +8,13 @@ export default function Intro() {
         init(textRef.current, { 
             showCursor: true,
             backDelay:1500,
-             strings: ['Developer', 'Designer','ML Engineer' ] })
+             strings: ['MERN Full Stack developer' ] })
     }, [])
     return (
         <div className="intro" id="intro">
         <div className="left">
         <div className="imageContainer">
-        <img src="assets/amrit.png" alt="" /></div>
+        <img src={amrit} alt="" /></div>
         </div>
         <div className="right">
         <div className="wrapper">
